@@ -13,6 +13,8 @@ class MapComponent extends PolymerElement {
   GMap _map;
   
   MapComponent.created() : super.created() {
+    visualRefresh = true;
+
     _mapOptions = new MapOptions()
     ..zoom = 8
     ..center = new LatLng(-34.397, 150.644)
