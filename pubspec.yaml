@@ -1,6 +1,7 @@
 name: ptestmap
 description: A sample Polymer application
 dependencies:
+  browser: any
   google_maps: any
   polymer: any
 transformers:
